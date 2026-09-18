@@ -138,6 +138,12 @@ Project Development
 The website was developed using Visual Studio Code and managed using Git for version control.
 
 The development process involved creating the initial HTML structure, organising the website files, adding CSS styling, implementing responsive design and testing the website across different screen sizes.
+## Device Compatibility & Responsiveness
+
+|  Desktop View |  Mobile View |
+
+| <img src="images/Screenshootmobile.jpg" width="450" alt="Desktop View Screenshot"> | <img src="images/ScreenshotDesktop.jpg" width="220" alt="Mobile View Screenshot"> |
+
 
 Author
 
