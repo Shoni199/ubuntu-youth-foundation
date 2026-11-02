@@ -138,22 +138,12 @@ Project Development
 The website was developed using Visual Studio Code and managed using Git for version control.
 
 The development process involved creating the initial HTML structure, organising the website files, adding CSS styling, implementing responsive design and testing the website across different screen sizes.
-<<<<<<< HEAD
-=======
-## Device Compatibility & Responsiveness
-
-|  Desktop View |  Mobile View |
-
-| <img src="images/Screenshootmobile.jpg" width="450" alt="Desktop View Screenshot"> | <img src="images/ScreenshotDesktop.jpg" width="220" alt="Mobile View Screenshot"> |
-
->>>>>>> 1f65e45c5dba57386597417f3c123658405f9d77
 
 Author
 
 Mashonelo Thidiela
 
 WEDE5020
-<<<<<<< HEAD
 
 ## POE Part 3 additions (2 November 2026)
 
@@ -182,5 +172,3 @@ The existing forms and their original content are retained. The JavaScript check
 - Leaflet (n.d.) *Leaflet documentation*. Available at: https://leafletjs.com/reference.html (Accessed: 2 November 2026).
 - OpenStreetMap contributors (n.d.) *Copyright and license*. Available at: https://www.openstreetmap.org/copyright (Accessed: 2 November 2026).
 - W3C (2023) *Web Content Accessibility Guidelines (WCAG) 2.2*. Available at: https://www.w3.org/TR/WCAG22/ (Accessed: 2 November 2026).
-=======
->>>>>>> 1f65e45c5dba57386597417f3c123658405f9d77
