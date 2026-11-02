@@ -1,135 +1,174 @@
-# Ubuntu Youth Foundation Website
+Base Styling
 
-## Student Information
+A CSS reset was implemented to remove default browser margins and padding and to provide consistent styling across browsers.
 
-**Student Name:** Mashonelo Thidiela  
-**Student Number:** ST10451375  
-**Module:** WEDE5020  
-**Project:** Part 1 - Building the Foundation
+Base styles were also established for:
 
----
+Font family
+Font size
+Line height
+Text colour
+Background colour
+Images
+Links
+Form elements
+Typography
 
-## Project Overview
+Typography styles were applied using CSS properties including:
 
-The Ubuntu Youth Foundation website is a website project developed for a fictional South African non-profit organisation. The organisation focuses on empowering young people through education, digital skills development, mentorship and community support.
+font-family
+font-size
+font-weight
+line-height
+letter-spacing
 
-The website provides information about the organisation, its programmes and ways that visitors can become involved. It also provides enquiry and contact facilities for users who would like to communicate with the organisation.
+Relative rem units were used for typography and spacing.
 
-The website was developed using HTML5 and is managed using Git and GitHub for version control.
+Layout
 
----
+CSS Grid and Flexbox were used to create the website layout.
 
-## Website Goals and Objectives
+The layout includes:
 
-The main goal of the website is to create an informative and accessible online presence for Ubuntu Youth Foundation.
+Flexible header and navigation
+Responsive hero sections
+Multi-column programme cards
+Flexible footer layout
+Responsive content containers
+Visual Styling
 
-The objectives of the website are to:
+Visual styles were added to improve the appearance of the website, including:
 
-- Introduce visitors to Ubuntu Youth Foundation and its purpose.
-- Provide information about the organisation's mission, vision and values.
-- Explain the programmes offered to young people.
-- Provide information about volunteering, sponsorship and partnerships.
-- Allow visitors to make enquiries.
-- Provide visitors with contact information.
-- Create a clear and simple navigation system.
-- Organise information in a way that is easy for visitors to understand.
-- Provide a foundation that can be further developed with CSS and JavaScript in later parts of the project.
+Background colours
+Text colours
+Borders
+Rounded corners
+Box shadows
+Button styling
+Form styling
+Hover effects
+Focus effects
+Responsive Design
 
----
+Media queries were added to support different screen sizes.
 
-## Target Audience
+The website includes responsive layouts for:
 
-The primary target audience is young people between the ages of 13 and 24 who may benefit from education, digital skills, mentorship and community support.
+Desktop
+Tablet
+Mobile
 
-The secondary target audience includes:
+On smaller screens, multi-column layouts are changed to single-column layouts where appropriate. Navigation, typography, spacing and content sections are also adjusted for smaller screens.
 
-- Parents and guardians
-- Teachers and educators
-- Volunteers
-- Sponsors
-- Businesses
-- Community organisations
-- Potential partners
+Responsive Images
 
----
+The website uses the HTML <picture> element and srcset to support responsive image loading and display.
 
-## Key Features and Functionality
+Example:
 
-The website currently contains five main webpages:
+Technologies Used
 
-### Home Page
+The following technologies and tools were used during the project:
 
-The Home page introduces Ubuntu Youth Foundation and provides an overview of its purpose and activities.
+HTML5
+CSS3
+JavaScript
+Visual Studio Code
+Git
+GitHub
+Web browser developer tools
+Free-to-use online image resources
+File and Folder Structure
+Responsive Design Testing
 
-### About Us
+The website was tested using browser developer tools at different screen sizes.
 
-The About Us page provides information about the organisation, including its background, mission, vision, values and target audience.
+Desktop Testing
 
-### Programmes
+The website was tested at a desktop screen size to check the navigation, layout, images, text and overall presentation.
 
-The Programmes page provides information about the programmes offered by Ubuntu Youth Foundation, including:
+Screenshot:
+Add desktop screenshot here.
 
-- Digital Skills Development
-- Academic Support
-- Career and Mentorship
-- School Supplies and Community Support
+Tablet Testing
 
-### Enquiry
+The website was tested at a tablet screen size to ensure that the layout adapts correctly and that content remains readable.
 
-The Enquiry page provides information about ways users can become involved with the organisation, including volunteering, sponsorship and partnerships.
+Screenshot:
+Add tablet screenshot here.
 
-### Contact
+Mobile Testing
 
-The Contact page provides contact information and allows visitors to communicate with the organisation.
+The website was tested at a mobile screen size to ensure that navigation, images, text and content remain usable on smaller screens.
 
-### Navigation
+Screenshot:
+Add mobile screenshot here.
 
-A navigation menu is included across the website to allow users to move between the main webpages.
+GitHub Development
 
-### Images
+Git and GitHub were used to manage the development of the website.
 
-Relevant images have been included throughout the website to support the written content and improve the presentation of the webpages.
+Changes were committed regularly using descriptive commit messages and pushed to the remote GitHub repository.
 
----
+GitHub Repository:
 
-## Technologies Used
+https://github.com/Shoni199/ubuntu-youth-foundation
 
-The following technologies and tools were used during Part 1:
+Part 2 Development
 
-- HTML5
-- CSS3 project structure
-- JavaScript project structure
-- Visual Studio Code
-- Git
-- GitHub
-- Web browser for testing
-- Free-to-use online image resources
+Part 2 involved building on the HTML foundation created in Part 1.
 
----
+The main development activities included:
 
-## File and Folder Structure
+Creating and applying the external CSS stylesheet.
+Establishing a CSS reset and base styles.
+Applying typography styles.
+Creating layouts using CSS Grid and Flexbox.
+Applying visual styling to website elements.
+Adding hover and focus states.
+Creating responsive breakpoints.
+Using relative units for responsive sizing.
+Implementing responsive image techniques.
+Testing the website on desktop, tablet and mobile screen sizes.
+Updating the README documentation.
+Updating the project changelog.
+Committing and pushing changes to GitHub.
+Project Development
 
-```text
-Ubuntu-Youth-Foundation/
-│
-├── index.html
-├── about.html
-├── programmes.html
-├── enquiry.html
-├── contact.html
-│
-├── css/
-│   └── style.css
-│
-├── js/
-│   └── script.js
-│
-├── images/
-│   ├── youth-development.jpg
-│   ├── about-youth.jpg
-│   ├── programmes.jpg
-│   ├── get-involved.jpg
-│   └── contact.jpg
-│
-├── README.md
-└── CHANGELOG.md
+The website was developed using Visual Studio Code and managed using Git for version control.
+
+The development process involved creating the initial HTML structure, organising the website files, adding CSS styling, implementing responsive design and testing the website across different screen sizes.
+
+Author
+
+Mashonelo Thidiela
+
+WEDE5020
+
+## POE Part 3 additions (2 November 2026)
+
+The Part 2 HTML pages, original CSS design, colour palette, page layouts and supplied image assets have been retained. Part 3 additions are appended to the existing stylesheet and JavaScript file.
+
+### JavaScript enhancements
+- FAQ accordion controls on the programmes page.
+- Image gallery with a lightbox on the About page, using the project's existing image assets.
+- Live text search to filter programme sections.
+- Interactive Leaflet map on the Contact page, with clearly labelled general-area markers for Johannesburg and Soweto.
+- Form validity checks using HTML5 browser validation.
+
+### SEO and accessibility
+- Updated unique page titles and meta descriptions.
+- Added robots.txt and sitemap.xml templates; replace `YOUR-PUBLISHED-DOMAIN` after deployment.
+- Improved the About page image alternative text.
+- Added keyboard focus indicators and reduced-motion support.
+- Standardised filenames to lowercase to match the existing navigation links on case-sensitive hosting.
+
+### Forms
+The existing forms and their original content are retained. The JavaScript checks browser validity before the form's configured action proceeds. A static HTML site cannot securely process or store submissions by itself. To meet asynchronous/AJAX submission fully, connect a form backend or hosted form service and test it before final submission.
+
+### Part 3 references
+- Google Search Central (n.d.) *SEO Starter Guide*. Available at: https://developers.google.com/search/docs/fundamentals/seo-starter-guide (Accessed: 2 November 2026).
+- MDN Web Docs (n.d.) *Constraint validation*. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML/Constraint_validation (Accessed: 2 November 2026).
+- Leaflet (n.d.) *Leaflet documentation*. Available at: https://leafletjs.com/reference.html (Accessed: 2 November 2026).
+- OpenStreetMap contributors (n.d.) *Copyright and license*. Available at: https://www.openstreetmap.org/copyright (Accessed: 2 November 2026).
+- W3C (2023) *Web Content Accessibility Guidelines (WCAG) 2.2*. Available at: https://www.w3.org/TR/WCAG22/ (Accessed: 2 November 2026).

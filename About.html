@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Learn about Ubuntu Youth Foundation, our mission, vision and commitment to youth development.">
+    <meta name="description" content="Discover Ubuntu Youth Foundation's mission, vision and commitment to youth education and development.">
     <title>About Us | Ubuntu Youth Foundation</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -37,7 +37,10 @@
             </p>
 
             <img src="images/about-youth.jpg"
-                 alt="Young people working together during a community programme">
+     srcset="images/about-youth.jpg 600w,
+             images/about-youth.jpg 1200w"
+     sizes="(max-width: 600px) 100vw, 50vw"
+     alt="Young people taking part in a youth development activity">
         </section>
 
         <section class="about-section">
@@ -156,7 +159,16 @@
 
     </main>
 
-    <footer>
+    <section class="part3-gallery">
+<h2>Youth Development Gallery</h2>
+<p>Select an image to view it in a larger size.</p>
+<div class="part3-gallery-grid">
+<button class="part3-gallery-item" type="button" data-full="images/about-youth.jpg" data-alt="Young people taking part in a youth development activity"><img src="images/about-youth.jpg" alt="Young people taking part in a youth development activity" loading="lazy"></button>
+<button class="part3-gallery-item" type="button" data-full="images/programmes.jpg" data-alt="Young people participating in an educational programme"><img src="images/programmes.jpg" alt="Young people participating in an educational programme" loading="lazy"></button>
+<button class="part3-gallery-item" type="button" data-full="images/get-involved.jpg" data-alt="Volunteers supporting young people"><img src="images/get-involved.jpg" alt="Volunteers supporting young people" loading="lazy"></button>
+</div></section>
+<dialog id="part3-lightbox" class="part3-lightbox"><button type="button" id="part3-lightbox-close">Close ✕</button><img id="part3-lightbox-img" alt=""><p id="part3-lightbox-caption"></p></dialog>
+<footer>
         <h2>Ubuntu Youth Foundation</h2>
 
         <p>
